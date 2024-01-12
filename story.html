@@ -38,7 +38,7 @@
                 <a class="menu-sub" href="basic.html">Basic Kanji</a>
                 <a class="menu-sub active" href="story.html">Create a story</a>
                 <a class="menu-sub" href="long_story.html">Create a long story</a>
-                <a class="menu-sub" href="vocab.html">Vocabulary</a>
+                <a class="menu-sub" href="vocab.html">Library</a>
             </div>
             <div class="content">
                 <form action="">
@@ -49,41 +49,44 @@
                     </div>
                     <div class="input-kanj">
                         <input type="text" id="kanji" placeholder="Enter 1 kanji">
-                        <button id="create">Create</button>
+                        <button type="button" id="create">Create</button>
                     </div>
                 </form>
-                <div class="output">
-                    <div class="output-kanji">
-                        <div class="output-kanji-up">
-                            <div class="output-kanji-up-left">
-                                <p id="output-kanji-ne" class="output-kanji-up-left-text"></p>
+                <div class="output-container">
+                    <!-- <div class="output">
+                        <div class="output-kanji">
+                            <div class="output-kanji-up">
+                                <div class="output-kanji-up-left">
+                                    <p id="output-kanji-ne" class="output-kanji-up-left-text"></p>
+                                </div>
+                                <div class="output-kanji-up-right">
+                                    <div class="output-kanji-up-right-title">
+                                        <h3>Meaning:</h3>
+                                        <h3>Kunyomi:</h3>
+                                        <h3>Onyomi:</h3>
+                                        <h3>Composition:</h3>
+                                    </div>
+                                    <div class="output-kanji-up-right-mean">
+                                        <p id="mean"></p>
+                                        <p id="kun"></p>
+                                        <p id="on"></p>
+                                        <p id="composition"></p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="output-kanji-up-right">
-                                <div class="output-kanji-up-right-title">
-                                    <h3>Meaning:</h3>
-                                    <h3>Kunyomi:</h3>
-                                    <h3>Onyomi:</h3>
-                                    <h3>Composition:</h3>
-                                </div>
-                                <div class="output-kanji-up-right-mean">
-                                    <p id="mean"></p>
-                                    <p id="kun"></p>
-                                    <p id="on"></p>
-                                    <p id="composition"></p>
-                                </div>
+                            <div class="output-kanji-down">
+                                <p id="story">
+                                    If a person opens his MOUTH (口) and speaks like an ARROW (矢), he KNOWS (知る)!
+                                </p>
                             </div>
                         </div>
-                        <div class="output-kanji-down">
-                            <p id="story">
-                                If a person opens his MOUTH (口) and speaks like an ARROW (矢), he KNOWS (知る)!
-                            </p>
+                        <div class="save-reload">
+                            <i class="fa-regular fa-bookmark"></i>
+                            <i class="fa-solid fa-arrows-rotate"></i>
                         </div>
-                    </div>
-                    <div class="save-reload">
-                        <i class="fa-regular fa-bookmark"></i>
-                        <i class="fa-solid fa-arrows-rotate"></i>
-                    </div>
+                    </div> -->
                 </div>
+                <div class="loader"></div>
             </div>
         </div>
     </main>

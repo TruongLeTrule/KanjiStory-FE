@@ -48,8 +48,8 @@
 }
 
 .fa-bell, .fa-user {
-    padding: 20px 20px 0 0px;
-    font-size: 50px;
+    padding: 30px 20px 0 0px;
+    font-size: 40px;
     background-image: var(--linear-gra);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
