@@ -1,0 +1,126 @@
+﻿* {
+    font-size: large;
+}
+
+:root {
+    --pink-bg: #FFD9E8;
+    --pink-bg-light: #ffd9e87d;
+    --pink-hvr: #DE95BA;
+    --teal-btn: #407088;
+    --teal-shadow: #40708872;
+    --linear-gra: linear-gradient( to right,#FFD9E8, #DE95BA, #7F4A88, #4A266A);
+}
+
+.container-main {
+    display: flex;
+}
+
+.content {
+    width: 83%;
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-tag {
+    height: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.container-tag button {
+    background-color: #40708872;
+    border: 0;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.container-tag button:hover {
+    color: #fafafa;
+    font-weight: 600;
+    box-shadow: #40708825 3px 3px 3px;
+}
+
+.tag {
+    background-color: #70ADB5;
+    border: 0;
+    padding: 10px 10px 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.container-tag .tag:hover {
+    color: #fafafa;
+    font-weight: 600;
+    box-shadow: #40708825 3px 3px 3px;
+}
+
+.tag.active {
+    color: #fafafa;
+    font-weight: 600;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#n-kanji {
+    width: 900px;
+    height: 70px;
+    border: 2px solid #FFD9E8;
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+}
+
+#n-create {
+    height: 70px;
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
+    border: 0;
+    background-color: var(--teal-btn);
+    color: #fafafa;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#n-create:hover {
+    box-shadow: var(--teal-shadow) 5px 5px 5px;
+}
+
+.output {
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.output-jan-story {
+    width: 50%;
+    background-color: var(--pink-bg-light);
+    border-radius: 20px;
+}
+
+.output-en-story {
+    width: 50%;
+    background-color: var(--pink-bg-light);
+    border-radius: 20px;
+}
+
+.save-reload {
+    padding: 10px 0 0 30px;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.fa-bookmark, .fa-arrows-rotate {
+    font-size: 30px;
+    font-weight: lighter;
+}
