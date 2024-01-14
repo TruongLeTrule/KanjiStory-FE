@@ -35,7 +35,7 @@
   color: #407088;
   font-weight: bold;
   text-align: center;
-  margin: 45px 0;
+  margin: 35px 0;
   font-size: 3rem;
 }
 
@@ -44,7 +44,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  row-gap: 25px;
+  row-gap: 20px;
 }
 
 .label,
@@ -75,7 +75,7 @@
 }
 
 .btn {
-  margin-top: 15px;
+  margin-top: 5px;
   outline: none;
   border: none;
   background-color: var(--pink-bg);
@@ -103,4 +103,11 @@
 
 .signup_link {
   color: #407088;
+}
+
+.password-error,
+.username-error {
+  margin-top: 10px;
+  color: #de95ba;
+  font-size: 1.3rem;
 }
