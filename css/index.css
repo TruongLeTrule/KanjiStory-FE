@@ -39,33 +39,20 @@
   padding: 10px 0 0 0;
 }
 
-<<<<<<< HEAD
 .box-right {
-    width: 200px;
-    justify-content: right;
-    display: flex;
-    gap: 20px;
-}
-
-.fa-bell, .fa-user {
-    padding: 30px 20px 0 0px;
-    font-size: 40px;
-    background-image: var(--linear-gra);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-=======
-.box-img-right {
   width: 200px;
   justify-content: right;
   display: flex;
-  gap: 30px;
+  gap: 20px;
 }
 
-.box-img-right img {
-  width: 50px;
-  height: 80px;
-  padding: 30px 0 0 0px;
->>>>>>> origin/main
+.fa-bell,
+.fa-user {
+  padding: 30px 20px 0 0px;
+  font-size: 40px;
+  background-image: var(--linear-gra);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .menu {
