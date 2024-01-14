@@ -1,48 +1,103 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kanji Story | Vocabulary</title>
-    <link rel="icon" type="image/x-icon" href="./images/loho.png">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/story.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="./images/loho.png" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/vocab.css" />
     <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <div class="box-img-left">
-                <a href="index.html"><img src="./images/loho.png" alt=""></a>
-            </div>
-            <div class="box-img-center">
-                <a href="index.html"><img src="./images/kanjistory.png" alt=""></a>
-            </div>
-            <div class="box-right">
-                <i class="fa-regular fa-bell"></i>
-                <i class="fa-regular fa-user"></i>
-            </div>
+      <div class="container">
+        <div class="box-img-left">
+          <a href="index.html"><img src="./images/loho.png" alt="" /></a>
         </div>
+        <div class="box-img-center">
+          <a href="index.html"><img src="./images/kanjistory.png" alt="" /></a>
+        </div>
+        <div class="box-right">
+          <i class="fa-regular fa-bell"></i>
+          <i class="fa-regular fa-user"></i>
+        </div>
+      </div>
     </header>
     <main>
-        <div class="container-main">
-            <div class="menu">
-                <a class="menu-sub" href="basic.html">Basic Kanji</a>
-                <a class="menu-sub" href="story.html">Create a story</a>
-                <a class="menu-sub" href="long_story.html">Create a long story</a>
-                <a class="menu-sub active" href="vocab.html">Library</a>
-            </div>
-        
+      <div class="container-main">
+        <div class="menu">
+          <a class="menu-sub" href="basic.html">Basic Kanji</a>
+          <a class="menu-sub" href="story.html">Create a story</a>
+          <a class="menu-sub" href="long_story.html">Create a long story</a>
+          <a class="menu-sub active" href="vocab.html">Library</a>
         </div>
+        <div class="content">
+          <div class="filter-container">
+            <div class="filter-story">
+              <div class="short-story active">
+                <a href="library.html">Short story</a>
+              </div>
+              <div class="long-story">
+                <a href="longStoryLibrary.html">Long story</a>
+              </div>
+            </div>
+            <div class="filter"></div>
+          </div>
+
+          <div class="kanji">
+            <div class="kanji-group-wrap">
+              <!-- <div class="kanji-stroke-group">
+                      <div class="kanji-stroke">
+                          <p>1 day</p>
+                          <div class="select">
+                              <div class="selected"></div>
+                          </div>
+                      </div>
+                      <div class="kanji-group">
+                           <div class="kanji-each-contain">
+                              <div class="kanji-group-box">
+                                  <div class="kanji-box">
+                                      <p>一</p>
+                                  </div>
+                                  <div class="kanji-mean">
+                                      <p>
+                                          <span class="small-title"
+                                              ><b>Meaning:</b></span
+                                          ><br />One
+                                      </p>
+                                      <p>
+                                          <span class="small-title"
+                                              ><b>Story tag:</b></span
+                                          ><br />Normal
+                                      </p>
+                                  </div>
+                                  <div class="icon">
+                                      <div class="select">
+                                          <div class="selected"></div>
+                                      </div>
+                                      <i class="fa-regular fa-trash-can"></i>
+                                  </div>
+                              </div>
+                          </div> -->
+              <!-- </div> -->
+              <!-- </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-    <script src="./js/story1.js"></script>
-</body>
+    <script src="js/vocab.js"></script>
+  </body>
 </html>

@@ -1,58 +1,65 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kanji Story | Create a long story</title>
-    <link rel="icon" type="image/x-icon" href="./images/loho.png">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/long-story.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="./images/loho.png" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/long-story.css" />
     <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
     />
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <div class="box-img-left">
-                <a href="index.html"><img src="./images/loho.png" alt=""></a>
-            </div>
-            <div class="box-img-center">
-                <a href="index.html"><img src="./images/kanjistory.png" alt=""></a>
-            </div>
-            <div class="box-right">
-                <i class="fa-regular fa-bell"></i>
-                <i class="fa-regular fa-user"></i>
-            </div>
+      <div class="container">
+        <div class="box-img-left">
+          <a href="index.html"><img src="./images/loho.png" alt="" /></a>
         </div>
+        <div class="box-img-center">
+          <a href="index.html"><img src="./images/kanjistory.png" alt="" /></a>
+        </div>
+        <div class="box-right">
+          <i class="fa-regular fa-bell"></i>
+          <i class="fa-regular fa-user"></i>
+        </div>
+      </div>
     </header>
     <main>
-        <div class="container-main">
-            <div class="menu">
-                <a class="menu-sub" href="basic.html">Basic Kanji</a>
-                <a class="menu-sub" href="story.html">Create a story</a>
-                <a class="menu-sub active" href="long_story.html">Create a long story</a>
-                <a class="menu-sub" href="vocab.html">Library</a>
+      <div class="container-main">
+        <div class="menu">
+          <a class="menu-sub" href="basic.html">Basic Kanji</a>
+          <a class="menu-sub" href="story.html">Create a story</a>
+          <a class="menu-sub active" href="long_story.html"
+            >Create a long story</a
+          >
+          <a class="menu-sub" href="vocab.html">Library</a>
+        </div>
+        <div class="content">
+          <form action="">
+            <div class="container-tag">
+              <div class="tag normal active">Normal</div>
+              <div class="tag fun">Funny</div>
+              <div class="tag drama">Drama</div>
             </div>
-            <div class="content">
-                <form action="">
-                    <div class="container-tag">
-                        <div class="tag normal active" >Normal</div>
-                        <div class="tag fun" >Funny</div>
-                        <div class="tag drama" >Drama</div>
-                    </div>
-                    <div class="input-kanj">
-                        <input type="text" id="n-kanji" placeholder="Enter kanji">
-                        <button id="n-create">Create</button>
-                    </div>
-                </form>
-                <div class="output">
-                    <div class="output-jan-story">
+            <div class="input-kanj">
+              <input type="text" id="n-kanji" placeholder="Enter kanji" />
+              <button type="button" id="n-create">Create</button>
+            </div>
+          </form>
+          <div class="loader"></div>
+          <div class="output">
+            <!-- <div class="output-jan-story">
                         <p id="jan-story"></p>
                     </div>
                     <div class="output-en-story">
@@ -61,10 +68,11 @@
                     <div class="save-reload">
                         <i class="fa-regular fa-bookmark"></i>
                         <i class="fa-solid fa-arrows-rotate"></i>
-                    </div>
-                </div>
-            </div>
+                    </div> -->
+          </div>
         </div>
+      </div>
     </main>
-</body>
+    <script src="./js/long-story.js"></script>
+  </body>
 </html>
