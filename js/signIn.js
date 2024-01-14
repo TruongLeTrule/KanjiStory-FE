@@ -31,9 +31,9 @@ const sendSignInReq = async (userInfo) => {
       passwordError.textContent = data.errors.password;
     }
 
-    // if (data.user) {
-    //   location.assign("./index.html");
-    // }
+    if (data.user) {
+      location.assign("./index.html");
+    }
 
     return data;
   } catch (error) {
